@@ -8,10 +8,10 @@ inputs:
     required: true
     default: "World"
   
-  runs:
-    using: "docker"
-    Image: "Dockerfile"
-    
-  branding:
-    icon: "mic"
-    color: "purple"
+runs:
+  using: "docker"
+  Image: "Dockerfile"
+  
+branding:
+  icon: "mic"
+  color: "purple"
