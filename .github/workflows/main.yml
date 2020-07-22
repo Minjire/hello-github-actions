@@ -1,4 +1,4 @@
-name: A Workflow for my Hello World file
+name: A workflow for my Hello World file
 on: push
 
 jobs:
@@ -9,4 +9,4 @@ jobs:
       - uses: actions/checkout@v1
       - uses: ./action-a
         with:
-          MY_NAME: "Minjire"
+          MY_NAME: "Mona"
